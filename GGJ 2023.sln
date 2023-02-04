@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{689ffd8d-1efc-3477-2864-635fbff74d2d}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2DPlatformer.Tutorials", "Unity.2DPlatformer.Tutorials.csproj", "{10f0831c-a5a9-a442-6b5d-11edfb086e5c}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Platformer.Tutorials", "Unity.Platformer.Tutorials.csproj", "{55fd94ff-0905-213b-cf19-b98343b1a2e4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{52f603e9-764e-16ce-6046-e02e8e0230b6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{689ffd8d-1efc-3477-2864-635fbff74d2d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{689ffd8d-1efc-3477-2864-635fbff74d2d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10f0831c-a5a9-a442-6b5d-11edfb086e5c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10f0831c-a5a9-a442-6b5d-11edfb086e5c}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55fd94ff-0905-213b-cf19-b98343b1a2e4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55fd94ff-0905-213b-cf19-b98343b1a2e4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52f603e9-764e-16ce-6046-e02e8e0230b6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52f603e9-764e-16ce-6046-e02e8e0230b6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
