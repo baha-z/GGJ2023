@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b494c25c268c1784f81cd0b375c9787b
+guid: c1fdadf544e931a48a8597bc1a410e5e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 60
+  spritePixelsToUnits: 150
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -129,148 +129,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_death_0
+      name: Chomp2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 25
-        width: 100
-        height: 80
+        x: 15
+        y: 9
+        width: 184
+        height: 177
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf747a2c9d9831f45b9ce09744dc10b2
-      internalID: 867718299
+      spriteID: 284ee3da387af934fa7936992757ce80
+      internalID: 1980256784
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_death_1
+      name: Chomp2_1
       rect:
         serializedVersion: 2
-        x: 100
-        y: 25
-        width: 100
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 208
+        y: 10
+        width: 184
+        height: 177
+      alignment: 9
+      pivot: {x: 0.49521956, y: 0.43469274}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d82ae71d65d982a429e9f46bff47e0d7
-      internalID: 795809298
+      spriteID: 5482f91e68f8f424393cada24f934e14
+      internalID: -1113995812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_death_2
+      name: Chomp2_2
       rect:
         serializedVersion: 2
-        x: 205
-        y: 25
-        width: 100
-        height: 80
+        x: 408
+        y: 10
+        width: 184
+        height: 177
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7444ba195f503d42b539008249e4203
-      internalID: 444580101
+      spriteID: 3a4dbcbe124bec545b57b31521b23b84
+      internalID: 1398139341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_death_3
+      name: Chomp2_3
       rect:
         serializedVersion: 2
-        x: 305
-        y: 25
-        width: 100
-        height: 80
+        x: 601
+        y: 10
+        width: 184
+        height: 177
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2e97c61ed8f94542822c55d8cf5e84f
-      internalID: 1359748432
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_death_4
-      rect:
-        serializedVersion: 2
-        x: 405
-        y: 25
-        width: 100
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 564beb2c5e38ea24384ded3b9c98e091
-      internalID: -732579134
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_death_5
-      rect:
-        serializedVersion: 2
-        x: 505
-        y: 25
-        width: 100
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8e6c5d16ca74874ca284fe20f598122
-      internalID: 127541788
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_death_6
-      rect:
-        serializedVersion: 2
-        x: 606
-        y: 25
-        width: 100
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99ba4a7bc2c5e2d488f53a55a560d048
-      internalID: 974696291
+      spriteID: 1a56fcbb19319e2449e77409e628f096
+      internalID: -1894898218
       vertices: []
       indices: 
       edges: []
@@ -286,13 +223,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      player_death_4: -732579134
-      player_death_2: 444580101
-      player_death_6: 974696291
-      player_death_0: 867718299
-      player_death_3: 1359748432
-      player_death_1: 795809298
-      player_death_5: 127541788
+      Chomp2_1: -1113995812
+      Chomp2_0: 1980256784
+      Chomp2_2: 1398139341
+      Chomp2_3: -1894898218
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

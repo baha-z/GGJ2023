@@ -13,6 +13,8 @@ namespace Platformer.Mechanics
     public class EnemyController : MonoBehaviour
     {
         public AudioClip ouch;
+        public float xCoord = -3.66f;
+        public float yCoord = 2.91f;
 
         //internal AnimationController control;
         internal Collider2D _collider;

@@ -2,6 +2,7 @@ using Platformer.Core;
 using Platformer.Mechanics;
 using Platformer.Model;
 using Unity.VisualScripting;
+using UnityEngine;
 
 namespace Platformer.Gameplay
 {
@@ -13,7 +14,7 @@ namespace Platformer.Gameplay
     {
         public EnemyController enemy;
         public BossController boss;
-
+        
         public override void Execute()
         {
 
@@ -21,6 +22,16 @@ namespace Platformer.Gameplay
             {
                 enemy._collider.enabled = false;
                 enemy.animator.SetTrigger("death");
+
+                var renderer = enemy.GetComponent<Renderer>();
+                renderer.sortingOrder = 1;
+                
+                var position = new Vector3( enemy.xCoord, enemy.yCoord, 0 );
+                var scale = new Vector3( 2f, 2f, 2f );
+
+                enemy.transform.position = position;
+                enemy.transform.localScale = scale;
+                
                 if (enemy._audio && enemy.ouch)
                     enemy._audio.PlayOneShot(enemy.ouch);
             }

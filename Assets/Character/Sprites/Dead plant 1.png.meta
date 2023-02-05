@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b494c25c268c1784f81cd0b375c9787b
+guid: 7fcaabc9ec24e7f449620a078bb7a9e9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 60
+  spritePixelsToUnits: 190
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -129,148 +129,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_death_0
+      name: Dead plant 1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 25
-        width: 100
-        height: 80
+        y: 0
+        width: 200
+        height: 200
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf747a2c9d9831f45b9ce09744dc10b2
-      internalID: 867718299
+      spriteID: 3eccb1cfa0344d64882247616ea19da8
+      internalID: -448610229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_death_1
+      name: Dead plant 1_1
       rect:
         serializedVersion: 2
-        x: 100
-        y: 25
-        width: 100
-        height: 80
+        x: 200
+        y: 0
+        width: 200
+        height: 200
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d82ae71d65d982a429e9f46bff47e0d7
-      internalID: 795809298
+      spriteID: 911b4afa136dcc54eaf97b75a0173f1e
+      internalID: -693408696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_death_2
+      name: Dead plant 1_2
       rect:
         serializedVersion: 2
-        x: 205
-        y: 25
-        width: 100
-        height: 80
+        x: 400
+        y: 0
+        width: 200
+        height: 200
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7444ba195f503d42b539008249e4203
-      internalID: 444580101
+      spriteID: 7e104102794bc7c48b3774a36f5f0962
+      internalID: 497258946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player_death_3
+      name: Dead plant 1_3
       rect:
         serializedVersion: 2
-        x: 305
-        y: 25
-        width: 100
-        height: 80
+        x: 600
+        y: 0
+        width: 200
+        height: 200
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2e97c61ed8f94542822c55d8cf5e84f
-      internalID: 1359748432
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_death_4
-      rect:
-        serializedVersion: 2
-        x: 405
-        y: 25
-        width: 100
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 564beb2c5e38ea24384ded3b9c98e091
-      internalID: -732579134
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_death_5
-      rect:
-        serializedVersion: 2
-        x: 505
-        y: 25
-        width: 100
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8e6c5d16ca74874ca284fe20f598122
-      internalID: 127541788
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player_death_6
-      rect:
-        serializedVersion: 2
-        x: 606
-        y: 25
-        width: 100
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99ba4a7bc2c5e2d488f53a55a560d048
-      internalID: 974696291
+      spriteID: cd3402f335f64e448bbe566f2b1707e3
+      internalID: 577943037
       vertices: []
       indices: 
       edges: []
@@ -286,13 +223,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      player_death_4: -732579134
-      player_death_2: 444580101
-      player_death_6: 974696291
-      player_death_0: 867718299
-      player_death_3: 1359748432
-      player_death_1: 795809298
-      player_death_5: 127541788
+      Dead plant 1_0: -448610229
+      Dead plant 1_2: 497258946
+      Dead plant 1_3: 577943037
+      Dead plant 1_1: -693408696
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

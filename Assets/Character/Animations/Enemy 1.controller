@@ -6,7 +6,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Enemy
+  m_Name: Enemy 1
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: velocityX
@@ -348,7 +348,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Baddie-Idle
-  m_Speed: 0.5
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101392776920089998}
@@ -361,7 +361,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 19ff26d7609558d468d282bd51ba2585, type: 2}
+  m_Motion: {fileID: 7400000, guid: 77abeec45b5aa6548bbca18816c23878, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -441,7 +441,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 912fcd97de6b497479496df24639d786, type: 2}
+  m_Motion: {fileID: 7400000, guid: 3286f13bc1f49754cbe9bcc7a0539a92, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

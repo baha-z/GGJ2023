@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SuccessScreen.unity
     guid: a4d0e19649c75304abc23e54de1f67e9
+  - enabled: 1
+    path: Assets/Scenes/DeadScreen.unity
+    guid: 31fcc29ffd8bea74b9b96e907b285fc1
   m_configObjects: {}
