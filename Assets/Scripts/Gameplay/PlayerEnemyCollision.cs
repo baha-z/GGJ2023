@@ -59,7 +59,7 @@ namespace Platformer.Gameplay
                         var playerHealth = player.GetComponent<Health>();
                         playerHealth.Decrement(true);
                     }
-
+                    bullet.KillBullet();
                     player = null;
                 }
 
@@ -74,7 +74,7 @@ namespace Platformer.Gameplay
                             Schedule<EnemyDeath>().enemy = enemy;
                         }
                     }
-
+                    bullet.KillBullet();
                     bullet = null;
                 }
             }

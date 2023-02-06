@@ -40,7 +40,11 @@ public class Bullet : MonoBehaviour
             ev.boss = boss;
         }
 
-        Destroy(gameObject, 1);
+    }
+
+    public void KillBullet()
+    {
+        Destroy(gameObject);
     }
 
 
