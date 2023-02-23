@@ -31,7 +31,6 @@ public class Bullet : MonoBehaviour
             ev.bullet = this;
             ev.enemy = enemy;
         }
-        
         if (boss !=null)
         {
             

@@ -895,14 +895,6 @@
       <Project>{689ffd8d-1efc-3477-2864-635fbff74d2d}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
-    <ProjectReference Include="Unity.Platformer.Tutorials.csproj">
-      <Project>{55fd94ff-0905-213b-cf19-b98343b1a2e4}</Project>
-      <Name>Unity.Platformer.Tutorials</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2DPlatformer.Tutorials.csproj">
-      <Project>{10f0831c-a5a9-a442-6b5d-11edfb086e5c}</Project>
-      <Name>Unity.2DPlatformer.Tutorials</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

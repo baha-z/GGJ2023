@@ -41,6 +41,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Mechanics\EnemiesAliveCheck.cs" />
      <Compile Include="Assets\Scripts\Mechanics\PlayAudioClip.cs" />
      <Compile Include="Assets\Scripts\Gameplay\PlayerTokenCollision.cs" />
      <Compile Include="Assets\Scripts\Menu\MainMenu.cs" />
@@ -50,6 +51,7 @@
      <Compile Include="Assets\Scripts\UI\MainUIController.cs" />
      <Compile Include="Assets\Scripts\Mechanics\AnimationController.cs" />
      <Compile Include="Assets\Scripts\Gameplay\PlayerStopJump.cs" />
+     <Compile Include="Assets\Scripts\UI\HeatlhManager.cs" />
      <Compile Include="Assets\Scripts\Core\Simulation.cs" />
      <Compile Include="Assets\Scripts\Mechanics\PatrolPath.Mover.cs" />
      <Compile Include="Assets\Mod Assets\Mod Resources\Scripts\Platformer\PlatformerSpeedPad.cs" />
@@ -80,14 +82,12 @@
      <Compile Include="Assets\Scripts\Mechanics\TokenInstance.cs" />
      <Compile Include="Assets\Mod Assets\Mod Resources\Scripts\Platformer\Jiggler.cs" />
      <Compile Include="Assets\Scripts\Mechanics\TokenController.cs" />
+     <Compile Include="Assets\Scripts\Mechanics\BossController.cs" />
      <Compile Include="Assets\Mod Assets\Mod Resources\Scripts\Platformer\SimpleTrigger.cs" />
      <Compile Include="Assets\Scripts\Gameplay\PlayerEnteredVictoryZone.cs" />
      <Compile Include="Assets\Scripts\Mechanics\DeathZone.cs" />
      <Compile Include="Assets\Scripts\Mechanics\PatrolPath.cs" />
      <Compile Include="Assets\Scripts\Core\Simulation.InstanceRegister.cs" />
-     <Compile Include="Assets\Scripts\UI\HeatlhManager.cs" />
-     <Compile Include="Assets\Scripts\Mechanics\EnemiesAliveCheck.cs" />
-     <Compile Include="Assets\Scripts\Mechanics\BossController.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Mod Assets\Custom Materials" />
      <Folder Include="Assets\Mod Assets\2D Props\Billboard Prefabs" />
@@ -952,14 +952,6 @@
      </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.Platformer.Tutorials.csproj">
-      <Project>{55fd94ff-0905-213b-cf19-b98343b1a2e4}</Project>
-      <Name>Unity.Platformer.Tutorials</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2DPlatformer.Tutorials.csproj">
-      <Project>{10f0831c-a5a9-a442-6b5d-11edfb086e5c}</Project>
-      <Name>Unity.2DPlatformer.Tutorials</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

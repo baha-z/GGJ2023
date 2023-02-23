@@ -35,6 +35,8 @@ namespace Platformer.Gameplay
                     {
                         if (enemyHealth != null)
                         {
+                            Debug.Log("enemyHealth" + enemyHealth.GetHP());
+
                             enemyHealth.Decrement(true);
                             if (!enemyHealth.IsAlive)
                             {
@@ -77,11 +79,23 @@ namespace Platformer.Gameplay
                     bullet.KillBullet();
                     bullet = null;
                 }
+
+                enemy = null;
             }
             
             if (boss != null)
             {
+
                 var bossHealth = boss.GetComponent<Health>();
+                Debug.Log("bossHealth" + bossHealth.GetHP());
+                
+                if (player != null)
+                {
+                    var playerHealth = player.GetComponent<Health>();
+                    playerHealth.Decrement(true);
+                    player = null;
+                }
+                
                 if (bullet != null)
                 {
                     if (bossHealth != null)
@@ -93,9 +107,10 @@ namespace Platformer.Gameplay
                             Schedule<EnemyDeath>().boss = boss;
                         }
                     }
-
+                    bullet.KillBullet();
                     bullet = null;
                 }
+                boss = null;
             }
         }
     }

@@ -21,9 +21,12 @@ public class EnemiesAliveCheck : MonoBehaviour
  
     public void KilledEnemy()
     {
+        Debug.Log("KilledEnemy - listOfOpponents.Count " + listOfOpponents.Count);
         if(listOfOpponents.Count > 0)
         {
             listOfOpponents.RemoveAt(0);
+            Debug.Log("KilledEnemy - RemoveAt " + listOfOpponents.Count);
+
         }
     }
  
