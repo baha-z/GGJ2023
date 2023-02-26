@@ -21,7 +21,7 @@ namespace Platformer.Model
         /// by the user.
         /// </summary>
         public PlayerController player;
-
+        public BossController boss;
         public EnemyController enemy;
 
         /// <summary>

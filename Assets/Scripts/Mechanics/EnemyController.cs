@@ -46,6 +46,11 @@ namespace Platformer.Mechanics
             }
         }
 
+        public void Test()
+        {
+            Debug.Log("test");
+        }
+
 
 
     }

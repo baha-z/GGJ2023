@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 772289407653213039}
   - component: {fileID: 5843668731025413174}
   - component: {fileID: 2103583545}
-  - component: {fileID: 1404121904}
   m_Layer: 13
   m_Name: Enemy
   m_TagString: Enemy
@@ -87,7 +86,7 @@ SpriteRenderer:
   m_Size: {x: 1.28, y: 1.26}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &1605217082131907960
@@ -139,6 +138,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ouch: {fileID: 8300000, guid: b7f741588644cd64bbee6387cb54a96d, type: 3}
+  xCoord: -3.66
+  yCoord: 2.91
   health: {fileID: 0}
 --- !u!82 &5843668731025413174
 AudioSource:
@@ -249,15 +250,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHP: 2
---- !u!114 &1404121904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1661912868639658944}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56c6c6095cb319c4e94a363ab39fbbbb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

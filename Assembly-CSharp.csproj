@@ -106,14 +106,12 @@
      <Folder Include="Assets\Scripts" />
      <Folder Include="Assets\Settings" />
      <Folder Include="Assets\Mod Assets\Mod Resources" />
-     <Folder Include="Assets\Environment" />
      <Folder Include="Assets\Mod Assets\Powerup Prefabs" />
      <Folder Include="Assets\Scenes" />
      <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
      <Folder Include="Assets\Mod Assets\Mod Resources\Textures" />
      <Folder Include="Assets\Mod Assets\Environment Sprites Colored\Gold" />
      <Folder Include="Assets\TextMesh Pro\Resources" />
-     <Folder Include="Assets\Environment\Tiles" />
      <None Include="Assets\ThirdPartyNotice.txt" />
      <Folder Include="Assets\Menu" />
      <Folder Include="Assets\Scripts\Menu" />
@@ -157,7 +155,6 @@
      <Folder Include="Assets\Scripts\Gameplay" />
      <Folder Include="Assets\Mod Assets\Environment Sprites Colored\Magenta" />
      <Folder Include="Assets\Mod Assets\Mod Resources\Trail Materials" />
-     <Folder Include="Assets\Environment\Sprites" />
      <Folder Include="Assets\Mod Assets\Environment Sprites Colored\Brown" />
      <Folder Include="Assets\Audio" />
      <Folder Include="Assets\Scripts\View" />

@@ -35,13 +35,9 @@ namespace Platformer.Gameplay
                     {
                         if (enemyHealth != null)
                         {
-                            Debug.Log("enemyHealth" + enemyHealth.GetHP());
-
                             enemyHealth.Decrement(true);
                             if (!enemyHealth.IsAlive)
                             {
-                                Debug.Log("EL PANA ESTA MUERTO");
-
                                 Schedule<EnemyDeath>().enemy = enemy;
                                 player.Bounce(2);
                             }
@@ -69,6 +65,7 @@ namespace Platformer.Gameplay
                 {
                     if (enemyHealth != null)
                     {
+                        Debug.Log("enemyHealth" + enemyHealth.GetHP());
                         enemyHealth.Decrement(false);
                         if (!enemyHealth.IsAlive)
                         {

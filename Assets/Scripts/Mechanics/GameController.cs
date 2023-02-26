@@ -1,3 +1,4 @@
+using System;
 using Platformer.Core;
 using Platformer.Model;
 using UnityEngine;
@@ -11,6 +12,8 @@ namespace Platformer.Mechanics
     public class GameController : MonoBehaviour
     {
         public static GameController Instance { get; private set; }
+        public Camera cam1;
+        public Camera cam2; 
 
         //This model field is public and can be therefore be modified in the 
         //inspector.
@@ -19,6 +22,12 @@ namespace Platformer.Mechanics
         //shared reference when the scene loads, allowing the model to be
         //conveniently configured inside the inspector.
         public PlatformerModel model = Simulation.GetModel<PlatformerModel>();
+
+        private void Start()
+        {
+            cam1.enabled = true;
+            cam2.enabled = false;
+        }
 
         void OnEnable()
         {

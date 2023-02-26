@@ -50,7 +50,6 @@ namespace Platformer.Mechanics
             transform.localScale = original;
             // set the position
             
-            
             var waitTime = Random.Range(5, 10);
             Debug.Log("Attack on  "+ waitTime + "sec");
 

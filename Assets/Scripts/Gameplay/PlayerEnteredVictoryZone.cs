@@ -1,6 +1,8 @@
 using Platformer.Core;
 using Platformer.Mechanics;
 using Platformer.Model;
+using System.Collections;
+using UnityEngine;
 
 namespace Platformer.Gameplay
 {
@@ -10,15 +12,21 @@ namespace Platformer.Gameplay
     /// </summary>
     /// <typeparam name="PlayerEnteredVictoryZone"></typeparam>
     public class  PlayerEnteredVictoryZone : Simulation.Event<PlayerEnteredVictoryZone>
+    
+    
     {
         public VictoryZone victoryZone;
 
         PlatformerModel model = Simulation.GetModel<PlatformerModel>();
 
         public override void Execute()
+        
         {
-            model.player.animator.SetTrigger("victory");
-            model.player.controlEnabled = false;
+            
+            //model.player.controlEnabled = false;
+            //model.player.animator.SetTrigger("victory");
+            
         }
+
     }
 }
