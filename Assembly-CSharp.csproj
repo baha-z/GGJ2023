@@ -88,6 +88,7 @@
      <Compile Include="Assets\Scripts\Mechanics\DeathZone.cs" />
      <Compile Include="Assets\Scripts\Mechanics\PatrolPath.cs" />
      <Compile Include="Assets\Scripts\Core\Simulation.InstanceRegister.cs" />
+     <Compile Include="Assets\Scripts\View\CameraShake.cs" />
      <Folder Include="Assets" />
      <Folder Include="Assets\Mod Assets\Custom Materials" />
      <Folder Include="Assets\Mod Assets\2D Props\Billboard Prefabs" />

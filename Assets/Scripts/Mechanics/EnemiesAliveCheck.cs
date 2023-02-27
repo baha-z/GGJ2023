@@ -28,9 +28,16 @@ public class EnemiesAliveCheck : MonoBehaviour
  
     void Update()
     {
+
         if(listOfOpponents.Count <= 0)
         {
-            SceneManager.LoadScene("SuccessScreen");
+            StartCoroutine(EnemyDeath());
         }
+    }
+    
+    IEnumerator EnemyDeath()
+    {
+        yield return new WaitForSeconds(3);
+        SceneManager.LoadScene("SuccessScreen");
     }
 }

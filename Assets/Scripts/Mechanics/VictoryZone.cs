@@ -1,5 +1,6 @@
 using System.Collections;
 using Platformer.Gameplay;
+using Unity.VisualScripting;
 using UnityEngine;
 using static Platformer.Core.Simulation;
 
@@ -21,6 +22,7 @@ namespace Platformer.Mechanics
         public Transform bossSpawnPoint;
         public Camera cam1;
         public Camera cam2;
+        public CameraShake cameraShake;
 
         void OnTriggerEnter2D(Collider2D collider)
         {
@@ -30,6 +32,8 @@ namespace Platformer.Mechanics
                 
                 cam1.enabled = false;
                 cam2.enabled = true;
+                cam1.GetComponent<AudioListener> ().enabled  =  false;
+                cam2.GetComponent<AudioListener> ().enabled  =  true;
                 
                 var ev = Schedule<PlayerEnteredVictoryZone>();
                 ev.victoryZone = this;
@@ -60,6 +64,8 @@ namespace Platformer.Mechanics
             yield return new WaitForSeconds(1);
             audioSource.PlayOneShot(vineSound);
             Instantiate(vineWall3, vine3Pos, Quaternion.identity);
+            
+            StartCoroutine(cameraShake.Shake(1f, .2f)); 
             
             yield return new WaitForSeconds(1);
             audioSource.PlayOneShot(monsterRoar);

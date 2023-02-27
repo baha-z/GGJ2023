@@ -31,40 +31,46 @@ namespace Platformer.Mechanics
         void Awake()
         {
             //control = GetComponent<AnimationController>();
+            health = GetComponent<Health>();
             _collider = GetComponent<Collider2D>();
             _audio = GetComponent<AudioSource>();
             spriteRenderer = GetComponent<SpriteRenderer>();
             animator = GetComponent<Animator>();
         }
         
-        void Start () 
+        void Start ()
         {
+            animator.SetTrigger("spawn");
             StartCoroutine (Chomp());
         }
 
         IEnumerator Chomp()
         {
-            
-            transform.position = originalPosition;
-            Vector3 original = new Vector3( width , height , 4.5f );
-            transform.localScale = original;
-            // set the position
-            
-            var waitTime = Random.Range(5, 10);
-            Debug.Log("Attack on  "+ waitTime + "sec");
+            if (health.GetHP() > 0)
+            {
+                Debug.Log("GetHP()" + health.GetHP());
 
-            yield return new WaitForSeconds(waitTime);
-            
-            animator.SetTrigger("attack");
-            // set the scaling
-            Vector3 scale = new Vector3( width * 2 , height * 2, 4.5f );
-            transform.localScale = scale;
-            // set the position
-            transform.position = position;
-            
-            yield return new WaitForSeconds(1);
+                transform.position = originalPosition;
+                Vector3 original = new Vector3(width, height, 4.5f);
+                transform.localScale = original;
+                // set the position
 
-            StartCoroutine (Chomp());
+                var waitTime = Random.Range(5, 10);
+                Debug.Log("Attack on  " + waitTime + "sec");
+
+                yield return new WaitForSeconds(waitTime);
+
+                animator.SetTrigger("attack");
+                // set the scaling
+                Vector3 scale = new Vector3(width * 2, height * 2, 4.5f);
+                transform.localScale = scale;
+                // set the position
+                transform.position = position;
+
+                yield return new WaitForSeconds(1);
+
+                StartCoroutine(Chomp());
+            }
         }
 
         void OnCollisionEnter2D(Collision2D collision)

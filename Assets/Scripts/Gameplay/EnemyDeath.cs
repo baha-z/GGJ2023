@@ -38,6 +38,11 @@ namespace Platformer.Gameplay
 
             if (boss != null)
             {
+                var position = new Vector3( 0.02f, 5.69f, 0 );
+                var scale = new Vector3( 2f, 2f, 2f );
+                boss.transform.position = position;
+                boss.transform.localScale = scale;
+                
                 boss._collider.enabled = false;
                 boss.animator.SetTrigger("death");
             }

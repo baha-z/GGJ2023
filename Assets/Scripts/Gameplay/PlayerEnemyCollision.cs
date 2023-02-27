@@ -57,7 +57,6 @@ namespace Platformer.Gameplay
                         var playerHealth = player.GetComponent<Health>();
                         playerHealth.Decrement(true);
                     }
-                    bullet.KillBullet();
                     player = null;
                 }
 

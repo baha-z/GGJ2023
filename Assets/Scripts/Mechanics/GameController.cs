@@ -27,6 +27,8 @@ namespace Platformer.Mechanics
         {
             cam1.enabled = true;
             cam2.enabled = false;
+            cam1.GetComponent<AudioListener> ().enabled  =  true;
+            cam2.GetComponent<AudioListener> ().enabled  =  false;
         }
 
         void OnEnable()
